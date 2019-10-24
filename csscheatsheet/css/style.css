@@ -40,6 +40,13 @@ a:visited {
 	margin: auto;
 }
 
+.botton {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+}
+
 .box-1{
 	background-color: #333;
 	color: #fff;
@@ -83,13 +90,8 @@ a:visited {
 
 .categories {
 	border: 1px #ccc solid;
-<<<<<<< HEAD
 	padding: 10px;
 	border-radius: 20px;
-=======
-	padding: 10ps;
-	border-radius: 15px;
->>>>>>> f09fb58189764864eb09492f58f0980f06abf284
 }
 
 .categories h2 {
@@ -104,17 +106,31 @@ a:visited {
 }
 
 .categories li {
-<<<<<<< HEAD
 	padding-bottom: 5px;
 	border-bottom: dotted 1px #333;
 	list-style-image: url('../images/check.png');
 }
-=======
-	padding-bottom: 6px;
-	border-bottom: dotted 1px #333; 
-	/*
-	list-style-image: url('../images/check.png');
-	*/
+
+.my-form {
+	padding: 20px;
 }
 
->>>>>>> f09fb58189764864eb09492f58f0980f06abf284
+.my-form .form-group {
+	padding-bottom: 15px;
+}
+
+.my-form label {
+	display: block;
+}
+
+.my-form input[type="text"], .my-form textarea {
+	padding: 8px;
+	width: 100%;
+}
+
+.botton {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+}
